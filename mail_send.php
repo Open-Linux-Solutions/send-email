@@ -18,8 +18,8 @@ function enviaEmail($de, $assunto, $mensagem, $para, $email_servidor) {
   mail($para, $assunto, nl2br($mensagem), $headers);
 }
 
-$email_servidor = "wphost@apiki.com";
-$para = "jonatan.gouveia@apiki.com";
+$email_servidor = "no-reply@linuxsolutions.xyz";
+$para = "jonatan@linuxsolutions.xyz";
 $de = pegaValor("email");
 $mensagem = pegaValor("mensagem");
 $assunto = "Assunto da mensagem";
